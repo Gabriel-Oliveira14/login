@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tela-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    background-image: url(/./src/imagens/paisagem-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.box-logo h1{
+    width: 100px;
+    margin-left: 20px;
+    color: #223842;
+}
+.navigation{
+    margin-right: 40px;
+}
+.navigation ul{
+    display: flex;
+    gap: 20px;
+}
+.navigation a{
+    color: #223842;
+    border: 3px solid #223842;
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.603);
+}
+.navigation a:hover{
+    background-color: #77aec2;
+    color: white;
+}
+.card-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #e7edeeaa;
+    width: 400px;
+    height: 450px;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px rgba(245, 245, 245, 0.362);
+}
+.box-login{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    font-size: 1.2em;
+}
+.box-login input{
+    background-color: #22384296;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    text-indent: 20px;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #71b1cd;
+    border-radius: 5px;
+}
